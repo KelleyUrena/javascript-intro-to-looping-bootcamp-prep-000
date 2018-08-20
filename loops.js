@@ -17,6 +17,10 @@ function whileLoop(n) {
   return "done";
 }
 
-function doWhileLoop() {
-  
+function doWhileLoop(array) {
+  do {
+    array.pop();
+  }  while(array.length || )
 }
+
+
