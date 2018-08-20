@@ -13,3 +13,7 @@ function forLoop(array) {
 function whileLoop() {
   
 }
+
+function doWhileLoop() {
+  
+}
