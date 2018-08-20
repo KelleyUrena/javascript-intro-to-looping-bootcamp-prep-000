@@ -21,8 +21,18 @@ function doWhileLoop(array) {
   do {
     array.pop();
   }  while(array.length || incrementVariable());
+  return array;
 }
 
+/**
+ *       const [array, t] = makeArray()
+      const l = array.length
+
+      const newArray = doWhileLoop(array)
+
+      expect(newArray).to.have.length.of.at.most(l - 1)
+    })
+    **/
 
 var i = 0;
 
